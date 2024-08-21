@@ -34,6 +34,7 @@ div#_nuxt {
 div#app {
   width: 100%;
 }
+
 nav {
   width: 100%;
   left: 0;
@@ -50,4 +51,11 @@ nav {
   
   border: 1px solid rgba(255, 255, 255, 0.3); 
 
+}
+.properties {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 6;
+  justify-content: center;
 }
