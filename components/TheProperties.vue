@@ -134,7 +134,7 @@ export default {
   height: 749px;
   position: absolute;
   right: 0;
-  top: 400px;
+  top: 200px;
 }
 .container {
   width: 100%;
@@ -212,7 +212,7 @@ export default {
 }
 @media (min-width: 600px) {
   .cont {
-    width: 80%;
+    width: 314px;
   }
 }
 @media (min-width: 900px) {

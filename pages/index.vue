@@ -6,5 +6,8 @@
         <section class="properties">
             <TheProperties/>
         </section>
+        <section class="viroblock">
+            <TheViroblock/>
+        </section>
     </main>
 </template>
