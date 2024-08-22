@@ -12,5 +12,8 @@
         <section class="protect">
             <TheProtect/>
         </section>
+        <section class="reason">
+            <TheReasons/>
+        </section>
     </main>
 </template>
