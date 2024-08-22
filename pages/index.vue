@@ -9,5 +9,8 @@
         <section class="viroblock">
             <TheViroblock/>
         </section>
+        <section class="protect">
+            <TheProtect/>
+        </section>
     </main>
 </template>

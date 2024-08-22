@@ -66,6 +66,13 @@ nav {
   z-index: 6;
   justify-content: center;
 }
+.protect {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 6;
+  justify-content: center;
+}
 
 @media (max-width: 600px) {
   .properties {
@@ -81,12 +88,18 @@ nav {
   .properties {
     height: 1400px;
   }
+  .viroblock {
+    height: 800px;
+  }
 }
 
 
 @media (min-width: 850px) and (max-width: 900px) {
   .properties {
     height: 1100px;
+  }
+  .viroblock {
+    height: 800px;
   }
 }
 
@@ -95,16 +108,30 @@ nav {
   .properties {
     height: 1100px;
   }
+  .viroblock {
+    height: 800px;
+  }
 }
 
 @media (min-width: 830px) {
   .properties {
     height: 1100px;
   }
+  .viroblock {
+    height: 800px;
+  }
+}
+@media(min-width:910px) {
+  .viroblock {
+    height: 500px;
+  }
 }
 @media (min-width: 1100px) and (max-width: 1260px) {
   .properties {
     height: 1100px;
+  }
+  .viroblock {
+    height: 500px;
   }
 }
 
@@ -112,6 +139,9 @@ nav {
 @media (min-width: 1260px) {
   .properties {
     height: 800px;
+  }
+  .viroblock {
+    height: 550px;
   }
 }
 
