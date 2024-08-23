@@ -80,6 +80,13 @@ nav {
   z-index: 6;
   justify-content: center;
 }
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 6;
+  justify-content: center;
+}
 
 @media (max-width: 600px) {
   .properties {
@@ -156,12 +163,23 @@ nav {
     height: 500px;
   }
   .reason {
-    height: 600px;
+    height: 800px;
   }
 }
 
 
 @media (min-width: 1260px) {
+  .properties {
+    height: 800px;
+  }
+  .viroblock {
+    height: 550px;
+  }
+  .reason {
+    height: 800px;
+  }
+}
+@media (min-width: 1270px) {
   .properties {
     height: 800px;
   }

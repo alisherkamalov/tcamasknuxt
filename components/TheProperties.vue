@@ -115,7 +115,7 @@ export default {
   translate: 5px 0px;
 }
 .subtitle {
-  width: 298px;
+  width: 90%;
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
